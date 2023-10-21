@@ -1,0 +1,18 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "command": "cargo install cargo-leptos",
+      "name": "c"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "cargo leptos watch": {
+      "name": "cargo leptos watch",
+      "command": "cargo leptos watch",
+      "runAtStart": true
+    }
+  }
+}
